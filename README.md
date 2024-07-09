@@ -8,8 +8,9 @@ Suttaket, T., & Kok, S. (2024). Interpretable Predictive Models for Healthcare v
 
 ### Data Preparation
 
-1. Download the MIMIC-III dataset from [PhysioNet](https://mimic.physionet.org/).
-2. Preprocess the data as required and save it in the `data/` directory.
+1. Download the MIMIC-III dataset by following the instructions provided at [MIMIC-III Getting Started](https://mimic.mit.edu/docs/gettingstarted/).
+2. Create two tasks which are the in-hospital mortality and decompensation prediction tasks by following the instructions from the [MIMIC-III Benchmark](https://github.com/YerevaNN/mimic3-benchmarks).
+
 
 ### Training the Model
 
