@@ -16,5 +16,5 @@ Suttaket, T., & Kok, S. (2024). Interpretable Predictive Models for Healthcare v
 To train the RMLP model, run the following command:
 
     ```sh
-    python train_rmlp.py --data_path data/mimic-iii/ --output_path results/
+    python -u main_ihm.py --log_likelihood_fn=loglikelihood_filename --deep_supervision=1 --pattern_specs="3-7_6-4_9-7_12-7_15-2_18-7" --batch_size=128 --data=data_folder --dropout=0.0 --clip=0 --mlp_hidden_dim=0 --num_mlp_layers=1 --mlp_pattern_NN="30" --target_repl_coef=0.5 --epochs=200 --file_name=output_filename
     ```
